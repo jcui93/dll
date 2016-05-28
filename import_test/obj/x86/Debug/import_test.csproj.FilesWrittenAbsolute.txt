@@ -1,0 +1,6 @@
+/home/clint/import_test/import_test/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/clint/import_test/import_test/obj/x86/Debug/import_test.gtk-gui.gui.stetic
+/home/clint/import_test/import_test/bin/Debug/import_test.exe.mdb
+/home/clint/import_test/import_test/bin/Debug/import_test.exe
+/home/clint/import_test/import_test/obj/x86/Debug/import_test.exe
+/home/clint/import_test/import_test/obj/x86/Debug/import_test.exe.mdb

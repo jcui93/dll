@@ -1,0 +1,5 @@
+Name: scan
+Description: 
+Version: 0.1
+Libs: -L"/home/clint/import_test/scan/bin/Debug" -lscan
+Cflags: -I"/home/clint/import_test/scan"

@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="import_test/import_test.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="import_test/importer.cs">
+    <Files>
+      <File FileName="import_test/Program.cs" Line="1" Column="1" />
+      <File FileName="import_test/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="import_test/importer.cs" Line="8" Column="33" />
+      <File FileName="uthash.h" Line="1" Column="1" />
+      <File FileName="vehicle-scan.c" Line="382" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
