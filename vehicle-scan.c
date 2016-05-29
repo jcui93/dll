@@ -89,7 +89,11 @@
 #define EIR_NAME_COMPLETE           0x09  /* complete local name */
 #define EIR_TX_POWER                0x0A  /* transmit power level */
 #define EIR_DEVICE_ID               0x10  /* device ID */
-
+#ifdef _WIN32
+#define CRUNTIMEDLL_API extern "C" __declspec(dllexport) void __stdcall
+#else
+#define CRUNTIMEDLL_API extern "C" void
+#endif
 struct _vehicle {
     bdaddr_t   address; 
     anki_vehicle_adv_t adv;
@@ -378,8 +382,8 @@ done:
 
         return 0;
 }
-
-extern "C" _declspec(dllexport) static void _stdcall cmd_lescan(int dev_id, int argc, char **argv)
+;
+CRUNTIMEDLL_API cmd_lescan(int dev_id, int argc, char** argv)
 {
         int err, opt, dd;
         uint8_t own_type = 0x00;
@@ -461,11 +465,9 @@ extern "C" _declspec(dllexport) static void _stdcall cmd_lescan(int dev_id, int 
 
         hci_close_dev(dd);
 }
-
-int main(int argc, char *argv[]) {
+int main(int argc, char** argv) {
         int opt, i, dev_id = -1;
 
 	cmd_lescan(dev_id, argc, argv);
-
 	return 0;
 }

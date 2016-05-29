@@ -5,15 +5,15 @@ namespace import_test
 {
 	public class importer
 	{
-		[DllImport ("/home/clint/import_test/vehicle-scan.so",
+		[DllImport ("/home/jcui93/Desktop/import_test/vehicle-scan.so",
 		CallingConvention = CallingConvention.StdCall )] 
-		unsafe static extern void cmd_lescan (int dev_id, int argc, char**argv);
+		unsafe static extern void cmd_lescan (int dev_id, int argc, char** argv);
 
 		unsafe public importer ()
 		{
-			char** tester = null;
+			//char[,] tester = {{'v','e','h','i','c','l','e','-','s','c','a','n'}};
 			try{
-			cmd_lescan(-1, 1, tester);
+				cmd_lescan(-1, 1, null);
 			}
 			catch(DllNotFoundException e){
 				Console.WriteLine (e.ToString ());

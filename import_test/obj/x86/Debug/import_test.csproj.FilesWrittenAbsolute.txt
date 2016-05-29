@@ -4,3 +4,9 @@
 /home/clint/import_test/import_test/bin/Debug/import_test.exe
 /home/clint/import_test/import_test/obj/x86/Debug/import_test.exe
 /home/clint/import_test/import_test/obj/x86/Debug/import_test.exe.mdb
+/home/jcui93/Desktop/import_test/import_test/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jcui93/Desktop/import_test/import_test/obj/x86/Debug/import_test.gtk-gui.gui.stetic
+/home/jcui93/Desktop/import_test/import_test/bin/Debug/import_test.exe.mdb
+/home/jcui93/Desktop/import_test/import_test/bin/Debug/import_test.exe
+/home/jcui93/Desktop/import_test/import_test/obj/x86/Debug/import_test.exe
+/home/jcui93/Desktop/import_test/import_test/obj/x86/Debug/import_test.exe.mdb
